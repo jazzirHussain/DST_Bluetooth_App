@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:transitionGroup="true">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="249dp"
+        android:layout_height="45dp"
+        android:text="@string/devices"
+        android:textSize="28sp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+         />
+
+    <ListView
+        android:id="@+id/listview"
+        android:layout_width="353dp"
+        android:layout_height="505dp"
+        android:layout_below="@+id/textView2"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"/>
+
+
+</RelativeLayout>

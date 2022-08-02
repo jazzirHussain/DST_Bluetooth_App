@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Bluetooth Scanner</string>
+    <string name="turn_on_text">Turn On Bluetooth</string>
+    <string name="turn_on_but_text">Turn On</string>
+    <string name="devices">Devices</string>
+</resources>
